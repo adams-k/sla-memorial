@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Tournament = () => {
-  return <h1>Tournament Page</h1>;
+  return <h1>Tournament Pages</h1>;
 };
 
 export default Tournament;
