@@ -1,14 +1,11 @@
 version: 1
 frontend:
     phases:
-        prebuild:
-          commands:
-            - 'npm ci'
         build:
             commands:
                 - 'npm run build'
     artifacts:
-        baseDirectory: './sla-memorial/build'
+        baseDirectory: './build'
         files:
             - '**/*'
     cache:
