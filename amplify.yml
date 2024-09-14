@@ -1,0 +1,16 @@
+version: 1
+frontend:
+    phases:
+        prebuild:
+          commands:
+            - 'cd app/'
+            - 'npm ci'
+        build:
+            commands:
+                - 'npm run build'
+    artifacts:
+        baseDirectory: './sla-memorial/app/build'
+        files:
+            - '**/*'
+    cache:
+        paths: 'node_modules/**/*'
