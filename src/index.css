@@ -8,10 +8,6 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-h2 {
-
-}
-
 @layer utilities {
   .navlink {
     @apply hover:text-primary cursor-pointer transition-all duration-300 relative mb-10
