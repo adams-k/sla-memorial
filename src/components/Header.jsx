@@ -8,9 +8,9 @@ const Header = () => {
     ))
 
     return (
-        <div className="bg-banner bg-cover bg-center lg:h-[490px] text-white">
-            <nav className="flex justify-between text-white bg-black/80 w-full px-10 h-16">
-                <h2 className="text-[18px] py-5">FUND</h2>
+        <div className="text-white">
+            <nav className="flex justify-between text-white bg-black/80 border-black/80 w-full px-10 h-[7vh]">
+                <img src="/logo_no_txt.png" className="w-14 h-14 my-1"/>
                 <ul className="lg:flex gap-6 text-[18px] py-5 hidden">
                     {link}
                 </ul>

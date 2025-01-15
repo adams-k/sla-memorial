@@ -7,6 +7,7 @@ import Past from './pages/Past';
 import Sponsors from './pages/Sponsors';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Thanks from './pages/Thanks';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="sponsors" element={<Sponsors />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="thanks" element={<Thanks />} />
         </Route>
         
       </Routes>

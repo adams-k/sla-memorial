@@ -10,7 +10,10 @@ export default {
         "banner" : "url('./src/assets/banner.jpeg')"
       },
       colors: {
-        "primary": "#fe8714"
+        "primary": "#00AAD1",
+        "secondary": "#fb8b00",
+        "third": "#f9c73a",
+        "fourth": "#5b0000"
       }
     },
   },

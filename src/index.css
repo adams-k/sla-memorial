@@ -10,11 +10,11 @@ html {
 
 @layer utilities {
   .navlink {
-    @apply hover:text-primary cursor-pointer transition-all duration-300 relative mb-10
+    @apply hover:text-secondary cursor-pointer transition-all duration-300 relative mb-10
   }
 
   .navlink::after {
-    @apply content-[''] bg-primary h-[2px] w-[6%] absolute -left-0 -bottom-0 duration-300 rounded-full
+    @apply content-[''] bg-secondary h-[2px] w-[6%] absolute -left-0 -bottom-0 duration-300 rounded-full
   }
 
   .navlink:hover::after {
