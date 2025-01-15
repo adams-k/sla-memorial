@@ -1,9 +1,9 @@
 const Footer = () => {
     return (
-        <footer class="fixed bottom-0 left-0 z-20 w-full p-0 shadow md:flex md:items-center md:justify-between md:p-5 bg-black/80 border-black/80 h-[8vh]">
-            <span class="text-sm text-white sm:text-center"> Scott Adams Sr. Memorial Fund
+        <footer class="fixed bottom-0 left-0 z-20 w-full p-0 shadow-2xl border-solid rounded-xl border-black md:flex md:items-center md:justify-between md:p-5 bg-gray-50">
+            <span class="text-sm text-black sm:text-center"> Scott Adams Sr. Memorial Fund
             </span>
-            <ul class="flex flex-wrap mt-3 text-sm font-medium text-white sm:mt-0">
+            <ul class="flex flex-wrap mt-3 text-sm font-medium text-black sm:mt-0">
                 <li>
                     <a href="https://www.facebook.com/groups/1250145466332451/" class="hover:underline me-4 md:me-6">Facebook</a>
                 </li>

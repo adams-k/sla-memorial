@@ -1,8 +1,8 @@
 const Contact = () => {
     return (
-        <section class="bg-gray-300 h-[85vh]">
+        <section>
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">Contact Us</h2>
+            <h1>Contact Us</h1>
             <p class="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">Looking to become a sponsor? Have any questions about the event or the website? Feel free to contact us at <u>scottadamssrmemorialfund@gmail.com</u> or send us a message below and we will get back to you!</p>
             <form method="POST" action="https://api.web3forms.com/submit "class="space-y-8">
             <input type="hidden" name="access_key" value="8dac073f-676f-4d3e-8543-d25853304812"/>
