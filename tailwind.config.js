@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "banner" : "url('./src/assets/banner.jpeg')"
+        "banner" : "url('/image0.jpeg')"
       },
       colors: {
         "primary": "#00AAD1",

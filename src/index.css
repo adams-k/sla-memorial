@@ -9,27 +9,27 @@ html {
 }
 
 h1 {
-  @apply mb-4 lg:text-4xl md:text-xl sm:text-lg tracking-tight font-extrabold text-center text-black
+  @apply mb-4 lg:text-4xl md:text-xl text-lg tracking-tight font-extrabold text-center text-black
 }
 
 h2 {
-  @apply mb-4 lg:text-3xl md:text-lg sm:text-base tracking-tight font-extrabold text-center text-black
+  @apply mb-4 lg:text-3xl md:text-lg text-base tracking-tight font-extrabold text-center text-black
 }
 
 h3 {
-  @apply mb-4 lg:text-2xl md:text-base sm:text-sm tracking-tight font-extrabold text-center text-black
+  @apply mb-4 lg:text-2xl md:text-base text-sm tracking-tight font-extrabold text-center text-black
 }
 
 h4 {
-  @apply mb-4 lg:text-xl md:text-sm sm:text-xs tracking-tight font-extrabold text-center text-black
+  @apply mb-4 lg:text-xl md:text-sm text-xs tracking-tight font-extrabold text-center text-black
 }
 
 p {
-  @apply mb-4 lg:text-base md:text-sm sm:text-xs
+  @apply mb-4 lg:text-base md:text-sm text-xs
 }
 
-Link {
-  @apply lg:text-base md:text-sm sm:text-xs
+.about-links {
+  @apply lg:text-base md:text-sm text-xs
 }
 
 @layer utilities {
@@ -38,7 +38,7 @@ Link {
   }
 
   .navlink::after {
-    @apply content-[''] bg-secondary h-[2px] w-[6%] absolute -left-0 -bottom-0 duration-300 rounded-full
+    @apply content-[''] bg-secondary h-[2px] w-[6%] absolute -left-0 top-6 duration-300 rounded-full
   }
 
   .navlink:hover::after {
