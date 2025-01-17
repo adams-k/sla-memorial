@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer class="fixed bottom-0 left-0 z-20 w-full p-0 shadow-2xl border-solid rounded-xl border-black md:flex md:items-center md:justify-between md:p-5 bg-gray-50">
+        <footer class="fixed bottom-0 left-0 z-20 w-full p-0 md:flex md:items-center md:justify-between md:p-5 bg-gray-200">
             <span class="text-sm text-black sm:text-center"> Scott Adams Sr. Memorial Fund
             </span>
             <ul class="flex flex-wrap mt-3 text-sm font-medium text-black sm:mt-0 sm:pb-3">

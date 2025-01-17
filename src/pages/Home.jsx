@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <div>
-            hello there
+            This site is underconstruction. All information may not be accurate. Please come back later.
         </div>
     )
 }

@@ -1,7 +1,7 @@
 const Contact = () => {
     return (
         <section>
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md h-[90vh]">
             <h1>Contact Us</h1>
             <p class="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">Looking to become a sponsor? Have any questions about the event or the website? Feel free to contact us at <u>scottadamssrmemorialfund@gmail.com</u> or send us a message below and we will get back to you!</p>
             <form method="POST" action="https://api.web3forms.com/submit "class="space-y-8">
@@ -19,7 +19,7 @@ const Contact = () => {
                     <textarea id="message" rows="6" name="message" class="block p-2.5 w-full text-sm rounded-lg shadow-sm border bg-gray-400 border-black placeholder-black text-black focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                 </div>
                 <input type="hidden" name="redirect" value="https://scottadamssrmemorialfund.org/thanks"/>
-                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary-700 focus:ring-primary-800">Send message</button>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Send message</button>
             </form>
         </div>
       </section>

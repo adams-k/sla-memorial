@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <div className="text-black">
-            <nav className="flex justify-between text-black bg-gray-50 border-black/80 w-full px-12 h-[7vh]">
+            <nav className="flex justify-between text-black bg-gray-200 border-black/80 w-full px-12 h-[7vh]">
                 <img src="/logo_no_txt.png" className="w-[6vh] h-[6vh] my-1"/>
                 <ul className="lg:flex gap-6 text-medium py-5 hidden">
                     {link}
