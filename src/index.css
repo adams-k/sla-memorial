@@ -26,7 +26,7 @@ p {
   @apply mb-4 lg:text-base md:text-sm text-xs font-medium font-poppins
 }
 
-a, span, label, input, textarea {
+a, span, label, input, textarea, button {
   @apply font-poppins font-medium
 }
 

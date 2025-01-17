@@ -19,7 +19,7 @@ const Contact = () => {
                     <textarea id="message" rows="6" name="message" class="block p-2.5 w-full text-sm rounded-lg shadow-sm border bg-gray-400 border-black placeholder-black text-black focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                 </div>
                 <input type="hidden" name="redirect" value="https://scottadamssrmemorialfund.org/thanks"/>
-                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Send message</button>
+                <button type="submit" class="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Send message</button>
             </form>
         </div>
       </section>

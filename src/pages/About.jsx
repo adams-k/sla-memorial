@@ -26,21 +26,21 @@ const About = () => {
                             
                             <div className="flex items-center justify-between text-pretty about-links">
                                 <div className="flex justify-center items-center">
-                                    <Link to="tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-white text-nowrap">
+                                    <Link to="tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about the Tournament <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center">
-                                    <Link to="scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-white text-nowrap">
+                                    <Link to="scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about Scott <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center">
-                                <Link to="board" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-white text-nowrap">
+                                <Link to="board" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
                                             Board Members <RxDoubleArrowDown />
                                         </div>
@@ -93,7 +93,7 @@ const About = () => {
             </section>
             <section id="scott" className="bg-gray-100">
                 <div>
-                    <div className="flex items-center justify-between gap-10 w-[75vw] mx-auto mb-20">
+                    <div className="flex items-center justify-between gap-10 w-[75vw] mx-auto mb-20 py-16">
                         <div className="float-left p-10">
                             <h1>Scott L. Adams Sr.</h1>
                             <p className="text-pretty">
