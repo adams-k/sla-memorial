@@ -5,13 +5,10 @@ import { TECarousel, TECarouselItem } from "tw-elements-react";
 const About = () => {
     return (
         <body>
-            <div className="bg-banner">
-
-            </div>
-            <section id="top">
+            <section id="top" className="bg-gray-100">
                 <div class="flex items-center justify-center py-8 lg:py-16 mx-auto w-[75vw] mb-10">
                     <div className="flex items-center justify-between gap-10">
-                        <div className="float-left border p-10 border-solid border-gray-400 shadow-xl rounded-lg bg-secondary">
+                        <div className="float-left p-10 ">
                             <h2 className="mb-0 text-nowrap">In Loving Memory of</h2>
                             <h1 className=" text-nowrap">Scott L. Adams Sr.</h1>
                             <p className="text-pretty">
@@ -52,16 +49,16 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/about.jpg" className="rounded-lg border-solid border-2 border-gray-800 float-right"></img>
+                            <img src="/about.jpg" className="rounded-lg float-right"></img>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="tournament">
                 <div>
-                    <div className="flex items-center justify-between gap-10 w-[75vw] mx-auto mb-20">
+                    <div className="flex items-center justify-between gap-10 w-[75vw] mx-auto mb-20 py-16">
                         <TECarousel ride="carousel">
-                            <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg border-solid border-black w-96 h-auto border-solid border-2 border-gray-800">
+                            <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg w-96 h-auto">
                             <TECarouselItem
                                 itemID={1}
                                 className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
@@ -69,18 +66,14 @@ const About = () => {
                             </TECarouselItem>
                             <TECarouselItem itemID={2}
                                 className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
-                                <img
-                                src="/image5.jpeg"
-                                className="block w-full"
-                                alt="..."
-                                />
+                                <img src="/image5.jpeg" className="block w-full" alt="..."/>
                             </TECarouselItem>
                             <TECarouselItem itemID={3} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
                                 <img src="/image6.jpeg" className="block w-full" alt="..."/>
                             </TECarouselItem>
                             </div>
                         </TECarousel>
-                        <div className="float-left border p-10 border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                        <div className="float-left p-10">
                             <h1>Cornhole Tournament</h1>
                             <p className="text-pretty">
                                 This upcoming June will be the 5th year of us hosting a Cornhole Tournament, the first as the Scott Adams Sr. Memorial Fund. It is hosted at 
@@ -98,10 +91,10 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section id="scott">
+            <section id="scott" className="bg-gray-100">
                 <div>
                     <div className="flex items-center justify-between gap-10 w-[75vw] mx-auto mb-20">
-                        <div className="float-left border p-10 border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                        <div className="float-left p-10">
                             <h1>Scott L. Adams Sr.</h1>
                             <p className="text-pretty">
                                 Scott L. Adams Sr. was born on July 10th, 1957 to Anita and the late Raymond F.L. Adams III. He was married to JoAnne Adams for 46 years and they had two sons together, Scott Jr. and Michael. 
@@ -118,7 +111,7 @@ const About = () => {
                             </p>
                         </div>
                         <TECarousel ride="carousel">
-                            <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg w-96 h-96 border-solid border-2 border-gray-800">
+                            <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg w-96 h-96">
                             <TECarouselItem itemID={1} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
                                 <img src="/poppop1.jpeg" className="block w-full" alt="..."/>
                             </TECarouselItem>
@@ -134,44 +127,44 @@ const About = () => {
                 </div>
             </section>
             <section id="board">
-                <div className="pb-32">
+                <div className="pb-32 pt-16">
                     <h1 className="mb-10">Board Members</h1>
                     <div className="flex items-center justify-between gap-10 w-[75vw] mx-auto mb-20 ">
                         <div>
-                            <img src="/mommom.jpeg" className="rounded-full h-48 mb-3 border-solid border-2 border-gray-800"/>
-                            <div className="text-center border border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                            <img src="/mommom.jpeg" className="rounded-full h-48 mb-3"/>
+                            <div className="text-center">
                                 <p className="mb-0">JoAnne Adams</p>
                                 <p className="mb-0">Wife</p>
                                 <p className="mb-0">President</p>
                             </div>
                         </div>
                         <div>
-                            <img src="/dad.jpeg" className="rounded-full h-48 w-48 mb-3 border-solid border-2 border-gray-800"/>
-                            <div className="text-center border border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                            <img src="/dad.jpeg" className="rounded-full h-48 w-48 mb-3"/>
+                            <div className="text-center">
                                 <p className="mb-0">Scott Adams Jr.</p>
                                 <p className="mb-0">Son</p>
                                 <p className="mb-0">Vice-President</p>
                             </div>
                         </div>
                         <div>
-                            <img src="/mikey.jpeg" className="rounded-full h-48 w-48 mb-3 border-solid border-2 border-gray-800"/>
-                            <div className="text-center border border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                            <img src="/mikey.jpeg" className="rounded-full h-48 w-48 mb-3"/>
+                            <div className="text-center">
                                 <p className="mb-0">Mike Adams</p>
                                 <p className="mb-0">Son</p>
                                 <p className="mb-0">Board Member</p>
                             </div>
                         </div>
                         <div>
-                            <img src="/scotty.jpeg" className="rounded-full h-48 w-48 mb-3 border-solid border-2 border-gray-800"/>
-                            <div className="text-center border border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                            <img src="/scotty.jpeg" className="rounded-full h-48 w-48 mb-3"/>
+                            <div className="text-center">
                                 <p className="mb-0">Scott Adams III</p>
                                 <p className="mb-0">Grandson</p>
                                 <p className="mb-0">Treasurer</p>
                             </div>
                         </div>
                         <div>
-                            <img src="/kyle.jpeg" className="rounded-full h-48 w-48 mb-3 border-solid border-2 border-gray-800"/>
-                            <div className="text-center border border-solid border-gray-800 shadow-xl rounded-lg bg-secondary">
+                            <img src="/kyle.jpeg" className="rounded-full h-48 w-48 mb-3"/>
+                            <div className="text-center">
                                 <p className="mb-0">Kyle Adams</p>
                                 <p className="mb-0">Grandson</p>
                                 <p className="mb-0">IT Development Director</p>

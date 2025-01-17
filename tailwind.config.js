@@ -4,12 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/tw-elements-react/dist/js/**/*.js"
-
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "banner" : "url('/image0.jpeg')"
+      fontFamily: {
+        'poppins': ['Poppins', 'serif'],
       },
       colors: {
         "primary": "#00AAD1",

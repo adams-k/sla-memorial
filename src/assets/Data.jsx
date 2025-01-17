@@ -1,7 +1,7 @@
 export const navData = [
-    [1, 'Home', '/'],
-    [2, 'Upcoming Events', '/upcoming'],
-    [3, 'News', 'news'],
-    [4, 'Past Events', 'past'],
-    [5, 'Sponsors', 'sponsors']
+    ['home', 'Home', '/'],
+    ['upcoming', 'Upcoming Events', '/upcoming'],
+    ['news', 'News', 'news'],
+    ['past', 'Past Events', 'past'],
+    ['sponsors', 'Sponsors', 'sponsors']
 ]
