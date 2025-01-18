@@ -9,8 +9,8 @@ const Header = () => {
 
     return (
         <div className="text-black">
-            <nav className="flex justify-between text-black bg-gray-200 border-black/80 w-full px-12 h-[7vh]">
-                <img src="/logo_no_txt.png" className="w-[6vh] h-[6vh] my-1"/>
+            <nav className="flex justify-between text-black border-black/80 w-full px-12 h-[4em]">
+                <img src="/logo_no_txt.png" className="w-[3em] h-[3em] my-2"/>
                 <ul className="lg:flex gap-6 text-medium py-5 hidden">
                     {link}
                 </ul>
@@ -24,7 +24,7 @@ const Header = () => {
                         <div className={`${click && 'absolute top-1 -rotate-45'} menubar w-6`}></div>
                     </div>
                     <div className={`${click ? 'w-60% visible' : 'invisible'}`}>
-                        <ul className={`flex flex-col gap-6 text-[18px] h-[90vh] shadow-2xl opacity-100 bg-gray-200 border-solid border-2 rounded-l-3xl border-gray-500 transition-all ${click ? 'w-[80%] translate-x-0' : 'translate-x-full' } duration-700 top-0 bottom-0 right-0 z-20 fixed p-20`}>
+                        <ul className={`flex flex-col gap-6 text-[18px] h-[100vh] shadow-2xl bg-gray-200 opacity-100 border-solid border-2 rounded-l-3xl border-gray-500 transition-all ${click ? 'w-[80%] translate-x-0' : 'translate-x-full' } duration-700 top-0 bottom-0 right-0 z-40 fixed p-20`}>
                             {link}
                         </ul>
                     </div>
