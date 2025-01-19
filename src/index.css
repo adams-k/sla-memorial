@@ -10,23 +10,23 @@ html{
   @apply bg-gray-200 
 }
 h1 {
-  @apply text-[3.0em] tracking-tight font-extrabold text-center text-black font-poppins
+  @apply xs:text-[2.0em] lg:text-[3.0em] tracking-tight font-extrabold text-center text-black font-poppins
 }
 
 h2 {
-  @apply text-[2.4em] tracking-tight font-extrabold text-center text-black font-poppins
+  @apply xs:text-[1.6em] lg:text-[2.4em] tracking-tight font-extrabold text-center text-black font-poppins
 }
 
 h3 {
-  @apply text-[2.0em] tracking-tight font-extrabold text-center text-black font-poppins
+  @apply xs:text-[1.2em] lg:text-[2.0em] tracking-tight font-extrabold text-center text-black font-poppins
 }
 
 h4 {
-  @apply text-[1.6em] tracking-tight font-extrabold text-center text-black font-poppins
+  @apply xs:text-[1.0em] lg:text-[1.6em] tracking-tight font-extrabold text-center text-black font-poppins
 }
 
 p {
-  @apply text-[100%] font-medium font-poppins
+  @apply xs:text-[75%] lg:text-[100%] font-medium font-poppins
 }
 
 a, span, label, input, textarea, button {

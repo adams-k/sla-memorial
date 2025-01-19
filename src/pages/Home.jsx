@@ -5,7 +5,7 @@ const Home = () => {
                 <img src="/image0.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw]"></img>
                 <img src="/logo.png" className="absolute translate-y-[0%] lg:translate-y-[15%]"/>
             </div>
-            <div className="flex flex-row justify-between align-middle gap-5 w-[75vw] lg:w-[45vw] mx-auto mt-24 text-center text-balance">
+            <div className="flex flex-row justify-between align-middle gap-5 w-[75vw] lg:w-[45vw] mx-auto xs:mt-28 lg:mt-24 text-center text-balance">
                 <div>
                     <h2>100+</h2>
                     <p>Participants every year</p>

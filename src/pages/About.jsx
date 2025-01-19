@@ -128,7 +128,7 @@ const About = () => {
             <section id="board">
                 <div className="pb-32 pt-16">
                     <h1 className="lg:mb-10">Board Members</h1>
-                    <div className="lg:flex items-center justify-between gap-2 lg:gap-10 w-[90vw] mx-auto mb-20">
+                    <div className="lg:flex items-center justify-between gap-2 lg:gap-10 w-[90vw] mx-auto mb-10">
                         <div>
                             <img src="/mommom.jpeg" className="rounded-full h-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
                             <div className="text-center mb-10">
@@ -146,7 +146,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/mikey.jpeg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/mikey.JPG" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">Mike Adams</p>
                                 <p className="mb-0">Son</p>
