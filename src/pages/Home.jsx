@@ -20,12 +20,12 @@ const Home = () => {
                 </div>
             </div>
             <div className="text-center w-[75vw] mx-auto mb-4 align-bottom">
-                <h1>Help us to honor Scott L. Adams Sr.</h1>
+                <h1>Help us honor Scott L. Adams Sr.</h1>
                 <p>
-                    100% of all donations go to <a href="https://www.stjude.org/" rel="external nofollow noopener" target="_blank" className="underline">St Jude Children's Research Hospital.</a> For
+                    100% of all donations go to <a href="https://www.stjude.org/" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary">St Jude Children's Research Hospital.</a> For
                     more information, check out our About Us section or Contact Us!
                 </p>
-                <p>Federal Tax Identification Number (EIN): 27-1488612</p>
+                <p>Federal Tax Identification Number (EIN): 99-3907270</p>
             </div>
             <div className="flex flex-row justify-between gap-10 w-[75vw] lg:w-[25%] mx-auto">
                 <a href="/about">

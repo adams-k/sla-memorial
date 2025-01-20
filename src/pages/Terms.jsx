@@ -135,7 +135,7 @@ const Terms = () => {
                 <p>Scott Adams Sr. Memorial Fund</p>
                 <p>scottadamssrmemorialfund@gmail.com</p>
                 <p>Bethlehem, PA 18017</p>
-                <p className="xs:mb-20 lg:mb-0">Federal Tax Identification Number (EIN): 27-1488612</p>
+                <p className="xs:mb-20 lg:mb-0">Federal Tax Identification Number (EIN): 99-3907270</p>
         </section>
     )
 }
