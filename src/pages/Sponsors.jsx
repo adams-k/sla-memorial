@@ -20,11 +20,13 @@ const Sponsors = () => {
             </div>
             <div className="xs:mb-5 lg:10">
                 <h2 className="mb-5">Top Sponsors</h2>
-                <div className="flex flex-row mx-auto justify-between lg:w-[50vw] xs:w-[90vw] xs:gap-10 lg:gap-0">
+                <div className="lg:flex lg:flex-row xs:grid xs:grid-cols-3 mx-auto justify-between lg:w-[75vw] xs:w-[90vw] xs:gap-5 lg:gap-0">
                     <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/ringers.png" className="w-32"/></a>
                     <a href="https://www.facebook.com/heckenbergers/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/heckenbergers.jpg" className="w-32"/></a>
-                    <h3><a href="https://www.facebook.com/adamssalads/" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary">Adams'<br></br>Salads</a></h3>
-                    <a href="https://www.allentownfarmersmarket.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/farmersmarket.webp" className="w-32"/></a>
+                    <a href="https://www.facebook.com/adamssalads/" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary"><img src="/adamssalads.jpg" className="w-32"/></a>
+                    <a href="https://bankobeverage.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/banko.png" className="w-32"/></a>
+                    <a href="https://www.facebook.com/p/Hogans-of-Allentown-PA-100063715533723/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/hogans.jpg" className="w-32"/></a>
+                    <a href="https://www.facebook.com/p/Cetronia-Fire-Company-Social-Club-100064243116123/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/centronia.jpg" className="w-32"/></a>
                 </div>
             </div>
             <div className="mb-5">
