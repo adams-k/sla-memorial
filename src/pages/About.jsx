@@ -24,7 +24,7 @@ const About = () => {
                                 Federal Tax Identification Number (EIN): 27-1488612
                             </p>
                             
-                            <div className="lg:flex lg:flex-wrap items-center justify-between text-pretty about-links mb-4">
+                            <div className="lg:flex lg:flex-wrap items-center justify-between text-pretty about-links mt-4">
                                 <div className="flex justify-center items-center mb-2">
                                     <Link to="tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
@@ -59,7 +59,7 @@ const About = () => {
                     <div className="lg:flex lg:flex-nowrap items-center justify-between gap-10">
                         <div className="">
                             <TECarousel ride="carousel">
-                                <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg w-96 h-auto -translate-x-[9.5%] mb-5">
+                                <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg xs:w-80 lg:w-96 h-auto -translate-x-[5%] mb-5">
                                     <TECarouselItem itemID={1} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
                                         <img src="/image4.jpeg" className="block w-full" alt="..."/>
                                     </TECarouselItem>
@@ -110,7 +110,7 @@ const About = () => {
                             </p>
                         </div>
                         <TECarousel ride="carousel">
-                            <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg w-96 h-96 -translate-x-[9.5%]">
+                            <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg xs:w-80 lg:w-96 xs:h-80 lg:h-96 -translate-x-[5%]">
                             <TECarouselItem itemID={1} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
                                 <img src="/poppop1.jpeg" className="block w-full" alt="..."/>
                             </TECarouselItem>
