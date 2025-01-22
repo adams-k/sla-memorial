@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <section className="lg:mb-0 xs:mb-20">
+        <section className="lg:mb-0 xs:mb-24">
             <div className="flex justify-center mx-auto">
                 <img src="/image0.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw]"></img>
                 <img src="/logo.png" className="absolute translate-y-[0%] lg:translate-y-[15%]"/>
@@ -12,7 +12,7 @@ const Home = () => {
                 </div>
                 <div>
                     <h2>150+</h2>
-                    <p className="">Thousand dollars donated towards cancer treatment and research</p>
+                    <p>Thousand dollars donated towards cancer treatment and research</p>
                 </div>
                 <div>
                     <h2>15+</h2>

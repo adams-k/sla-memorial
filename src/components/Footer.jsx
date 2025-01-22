@@ -1,3 +1,6 @@
+import PopUp from "./Newsletter";
+import React from 'react';
+
 const Footer = () => {
     return (
         <footer class="fixed bottom-0 left-0 z-20 w-full lg:flex pl-3 lg:items-center lg:justify-between lg:p-5 bg-gray-200 lg:h-[4em]">
@@ -12,6 +15,9 @@ const Footer = () => {
                 </li>
                 <li>
                     <a href="/contact" class="hover:underline me-4 md:me-6">Contact</a>
+                </li>
+                <li>
+                    <PopUp />
                 </li>
                 <li>
                     <a href="/terms" class="hover:underline me-4 md:me-6">Terms & Conditions</a>
