@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <section className="lg:mb-0 xs:mb-24">
+        <section className="lg:mb-0 xs:mb-32">
             <div className="flex justify-center mx-auto">
                 <img src="/image0.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw]"></img>
                 <img src="/logo.png" className="absolute translate-y-[0%] lg:translate-y-[15%]"/>
@@ -22,7 +22,7 @@ const Home = () => {
             <div className="text-center w-[75vw] mx-auto mb-4 align-bottom">
                 <h1>Help us honor Scott L. Adams Sr.</h1>
                 <p>
-                    100% of all donations go to <a href="https://www.stjude.org/" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary">St Jude Children's Research Hospital.</a> For
+                    100% of all donations go to <a href="https://www.stjude.org/" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary text-[100%]">St Jude Children's Research Hospital.</a> For
                     more information, check out our About Us section or Contact Us!
                 </p>
                 <p>Federal Tax Identification Number (EIN): 99-3907270</p>

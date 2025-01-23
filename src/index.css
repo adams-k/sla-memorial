@@ -29,7 +29,7 @@ p {
   @apply xs:text-[75%] lg:text-[100%] font-medium font-poppins
 }
 
-a, span, label, input, textarea, button {
+a, span, label, input, textarea, button, li, th, tr {
   @apply font-poppins font-medium
 }
 

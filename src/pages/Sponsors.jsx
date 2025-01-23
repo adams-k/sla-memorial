@@ -6,7 +6,7 @@ const Sponsors = () => {
     ))
 
     return (
-        <section className="lg:mb-0 xs:mb-20">
+        <section className="lg:mb-0 xs:mb-32">
             <div className="flex">
                 <div>
                     <img src="/image1.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw] mb-10"></img>

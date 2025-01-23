@@ -79,7 +79,7 @@ const About = () => {
                                 <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-secondary"> <u>Ringer's Roost,</u> </a>
                                 one of Scott's favorite places to go and socialize. We are very thankful for Ringer's allowing us to use their location for the tournament.</p>
                             <p className="text-pretty mb-2">
-                                In 2009, Scott and JoAnne started a bowling tournament as an extension of the Joe Muhl Memorial Foundation. They would run this tournament for 11 years at the St. Francis Society in Allentown as well, donating proceeds to
+                                In 2010, Scott and JoAnne started a bowling tournament as an extension of the Joe Muhl Memorial Foundation. They would run this tournament for 11 years at the St. Francis Society in Allentown as well, donating proceeds to
                                 the American Cancer Society and eventually transitioning to St. Jude Children's Research Hospital. Due to COVID-19 restrictions, the decision was made to change from bowling to cornhole in 2020. In the 15 years combined, we have raised
                                 over $150,000 for cancer treatment and research.
                             </p>
