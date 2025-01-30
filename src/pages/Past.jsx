@@ -1,7 +1,7 @@
 import { donationData } from "../assets/Data";
 
 const Past = () => {
-    const rows = donationData.map(([year, type, participants, entry, raffle, auction, donated, total]) => (
+    const rows = donationData.map(([year, type, participants, entry, auction, donated, total]) => (
         <tr class="bg-white border-b hover:bg-gray-50">
             <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                 {year}
@@ -14,9 +14,6 @@ const Past = () => {
             </td>
             <td class="px-6 py-4">
                 {entry}
-            </td>
-            <td class="px-6 py-4">
-                {raffle}
             </td>
             <td class="px-6 py-4">
                 {auction}
@@ -64,9 +61,6 @@ const Past = () => {
                                 Entry Fees
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                50/50 Raffle
-                            </th>
-                            <th scope="col" class="px-6 py-3">
                                 Chinese Auction
                             </th>
                             <th scope="col" class="px-6 py-3">
@@ -84,10 +78,9 @@ const Past = () => {
                         <tr class="font-semibold text-gray-900">
                             <th scope="row" class="px-6 py-3 text-base">Total</th>
                             <td class="px-6 py-3"></td>
-                            <td class="px-6 py-3">$1,037</td>
+                            <td class="px-6 py-3">1,037</td>
                             <td class="px-6 py-3">$20,420</td>
-                            <td class="px-6 py-3">$14,370</td>
-                            <td class="px-6 py-3">$10,700</td>
+                            <td class="px-6 py-3">$25,070</td>
                             <td class="px-6 py-3">$56,319</td>
                             <td class="px-6 py-3">$159,871</td>
                         </tr>
