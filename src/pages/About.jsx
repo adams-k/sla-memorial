@@ -80,11 +80,11 @@ const About = () => {
                                 one of Scott's favorite places to go and socialize. We are very thankful for Ringer's allowing us to use their location for the tournament.</p>
                             <p className="text-pretty mb-2">
                                 In 2010, Scott and JoAnne started a bowling tournament as an extension of the Joe Muhl Memorial Foundation. They would run this tournament for 11 years at the St. Francis Society in Allentown as well, donating proceeds to
-                                the American Cancer Society and eventually transitioning to St. Jude Children's Research Hospital. Due to COVID-19 restrictions, the decision was made to change from bowling to cornhole in 2020. In the 15 years combined, we have raised
+                                the American Cancer Society for the first three years and then transitioning to St. Jude Children's Research Hospital. Due to COVID-19 restrictions, the decision was made to change from bowling to cornhole in 2021. In the 15 years combined, we have raised
                                 over $150,000 for cancer treatment and research.
                             </p>
                             <p className="text-pretty mb-2">
-                                In addition to the tournament, there is also a 50/50 Raffle and a Chinese Auction with over a hundred prizes!
+                                In addition to the tournament, there is also a Chinese Auction with over a hundred prizes!
                             </p>
                             <p>
                                 For more information about the tournament, upcoming events and registration, please go to the <a href="/upcoming" className="underline hover:text-secondary">Upcoming Events Page.</a>
@@ -141,7 +141,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/dad.jpeg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/dad.jpg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">Scott Adams Jr.</p>
                                 <p className="mb-0">Son</p>
