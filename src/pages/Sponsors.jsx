@@ -21,15 +21,15 @@ const Sponsors = () => {
             <div className="xs:mb-5 lg:10">
                 <h2 className="mb-5">Top Sponsors</h2>
                 <div className="lg:flex lg:flex-row xs:grid xs:grid-cols-3 mx-auto justify-between lg:w-[75vw] xs:w-[90vw] xs:gap-5 lg:gap-0">
-                    <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50" data-tooltip-target="tooltip-top" data-tooltip-placement="top" ><img src="/ringers.png" className="w-32"/></a>
-                    <a href="https://www.facebook.com/heckenbergers/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/heckenbergers.jpg" className="w-32"/></a>
-                    <a href="https://www.facebook.com/adamssalads/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/adamssalads.jpg" className="w-32"/></a>
-                    <a href="https://bankobeverage.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/banko.png" className="w-32"/></a>
-                    <a href="https://www.facebook.com/p/Hogans-of-Allentown-PA-100063715533723/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/hogans.jpg" className="w-32"/></a>
-                    <a href="https://www.facebook.com/p/Cetronia-Fire-Company-Social-Club-100064243116123/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/centronia.jpg" className="w-32"/></a>
-                    <a href="https://www.facebook.com/fairviewfirecompany11/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/fairview.jpg" className="w-32"/></a>
-                    <a href="https://www.facebook.com/p/Mountainville-Fire-Co-16-100087790577058/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/mountainville.jpg" className="w-32"/></a>
-                    <a href="https://www.renderimpact.com" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/render_impact.jpg" className="w-32"/></a>
+                    <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50" data-tooltip-target="tooltip-top" data-tooltip-placement="top" ><img src="/ringers.png" className="w-32 h-32"/></a>
+                    <a href="https://www.facebook.com/heckenbergers/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/heckenbergers.jpg" className="w-32 h-32"/></a>
+                    <a href="https://www.facebook.com/adamssalads/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/adamssalads.jpg" className="w-32 h-32"/></a>
+                    <a href="https://bankobeverage.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/banko.png" className="w-32 h-32"/></a>
+                    <a href="https://www.facebook.com/p/Hogans-of-Allentown-PA-100063715533723/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/hogans.jpg" className="w-32 h-32"/></a>
+                    <a href="https://www.facebook.com/p/Cetronia-Fire-Company-Social-Club-100064243116123/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/centronia.jpg" className="w-32 h-32"/></a>
+                    <a href="https://www.facebook.com/p/Rosemont-Fire-Company-100063199991071/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/rosemont.jpg" className="w-32 h-32"/></a>
+                    <a href="https://www.llsgraphics.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/lls-graphics.png" className="w-32 h-32"/></a>
+                    <a href="https://www.renderimpact.com" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/render_impact.jpg" className="w-32 h-32"/></a>
                 </div>
             </div>
             <div className="mb-5">

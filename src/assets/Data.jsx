@@ -104,7 +104,7 @@ export const sponsorsMap = [
     ["S. Clyde Weavers", "https://sclydeweaver.com/"],
     ["Sal's Pizza", "https://thesalspizza.com/order%20now.htm"],
     ["Salvatore Ruffino's Pizza", "https://www.salvatoreruffinos.com/"],
-    ["Sara Buck", "#"],
+    ["Sarah Buck", "#"],
     ["Shepherd Hills Golf Club", "https://www.shepherdhillsgolf.com/"],
     ["Sleek Styles Salon", "https://www.facebook.com/sleekstylessalon/"],
     ["Stoltzfus Amish Meats", "https://www.stoltzfusmeats.com/"],
