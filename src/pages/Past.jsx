@@ -31,7 +31,8 @@ const Past = () => {
         <section>
             <div className="flex mb-10">
                 <div>
-                    <img src="/image8.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw] mb-10"></img>
+                    <img src="/image8.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw] mb-10"
+                    alt="A picture of the prizes table, displaying multiple baskets."/>
                     <h1>Past Events</h1>
                     <p className="text-center mx-auto lg:w-[50%]">
                         Since 2010, we have hosted 15 tournaments under the Joe Muhl Memorial Foundation. In those years, we have raised money from entry fees, 50/50 raffles, chinese auctions, and gifts to the organization.

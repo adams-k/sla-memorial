@@ -2,8 +2,11 @@ const Home = () => {
     return (
         <section className="lg:mb-0 xs:mb-32">
             <div className="flex justify-center mx-auto">
-                <img src="/image0.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw]"></img>
-                <img src="/logo.png" className="absolute translate-y-[0%] lg:translate-y-[15%]"/>
+                <img src="/image0.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw]"
+                alt="A top down view of the event, including the cornhole boards, prizes table, and a crowd of others."/>
+                <img src="/logo.png" className="absolute translate-y-[0%] lg:translate-y-[15%]" 
+                alt="Logo for the fund, displaying a palm tree on an island at sunset and underneath it says Scott Adams Sr
+                Memorial Fund."/>
             </div>
             <div className="flex flex-row justify-between align-middle gap-5 w-[75vw] lg:w-[45vw] mx-auto xs:mt-32 lg:mt-24 text-center text-balance">
                 <div>

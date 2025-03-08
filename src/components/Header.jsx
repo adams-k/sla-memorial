@@ -10,7 +10,8 @@ const Header = () => {
     return (
         <div className="text-black">
             <nav className="flex justify-between text-black border-black/80 w-full px-12 h-[4em]">
-                <img src="/logo_no_txt.png" className="w-[3em] h-[3em] my-2"/>
+                <img src="/logo_no_txt.png" alt="Scott Adams Sr Memorial logo, displaying a palm tree on an island with a sunset." 
+                    className="w-[3em] h-[3em] my-2"/>
                 <ul className="lg:flex gap-6 text-medium py-5 hidden">
                     {link}
                 </ul>
