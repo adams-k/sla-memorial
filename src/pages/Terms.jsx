@@ -70,7 +70,7 @@ const Terms = () => {
 
                 <h3 className="mb-3">SECTION 8 - PERSONAL INFORMATION</h3>
 
-                <p className="mb-3">Your submission of personal information through the Website is governed by our Privacy Policy. To view our Privacy Policy, please see <a className="hover:text-secondary underline" aria-label="Link to Privacy Policy" href="/privacy">https://scottadamssrmemorialfund.org/privacy</a></p>
+                <p className="mb-3">Your submission of personal information through the Website is governed by our Privacy Policy. To view our Privacy Policy, please see <a className="hover:text-primary underline" aria-label="Link to Privacy Policy" href="/privacy">https://scottadamssrmemorialfund.org/privacy</a></p>
 
                 <h3 className="mb-3">SECTION 9 - ERRORS, INACCURACIES AND OMISSIONS</h3>
 

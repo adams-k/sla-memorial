@@ -2,7 +2,7 @@ import { sponsorsMap } from "../assets/Data.jsx"
 
 const Sponsors = () => {
     const link = sponsorsMap.map(([name, url, label]) => (
-        <a href={url} aria-label={label} rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary">{name}</a>
+        <a href={url} aria-label={label} rel="external nofollow noopener" target="_blank" className="underline hover:text-primary">{name}</a>
     ))
 
     return (

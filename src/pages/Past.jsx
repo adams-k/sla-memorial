@@ -40,11 +40,11 @@ const Past = () => {
                     </p>
                 </div>
             </div>
-            <div class="relative overflow-x-auto shadow-md rounded-lg bg-white w-[95%] mx-auto mb-32 lg:mb-3">
-                <table class="w-full text-sm text-left rtl:text-right bg-gray-300 text-gray-500 mx-auto rounded-lg">
-                <caption class="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white">
+            <div className="relative overflow-x-auto shadow-md rounded-lg bg-white w-[95%] mx-auto mb-32 lg:mb-3">
+                <table className="w-full text-sm text-left rtl:text-right bg-gray-300 text-gray-500 mx-auto rounded-lg">
+                <caption className="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white">
                     Total Donations
-                    <p class="mt-1 text-sm font-normal text-gray-500">Check out a breakdown of how much we have donated, separated by year and organized by how the funds were raised.</p>
+                    <p className="mt-1 text-sm font-normal text-gray-500">Check out a breakdown of how much we have donated, separated by year and organized by how the funds were raised.</p>
                     <p className="text-xs font-normal text-gray-500"> The "Other" row totals the amount raised by other branches of the Joe Muhl Memorial Foundation.</p>
                 </caption>
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">

@@ -26,21 +26,21 @@ const About = () => {
                             
                             <div className="lg:flex lg:flex-wrap items-center justify-between text-pretty about-links mt-4">
                                 <div className="flex justify-center items-center mb-2">
-                                    <Link to="tournament" aria-label="Link to section to learn more about the tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                    <Link to="tournament" aria-label="Link to section to learn more about the tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-primary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about the Tournament <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center mb-2">
-                                    <Link to="scott" aria-label="Link to section to learn more about Scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                    <Link to="scott" aria-label="Link to section to learn more about Scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-primary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about Scott <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center mb-2">
-                                <Link to="board" aria-label="Link to section to learn about the board members" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                <Link to="board" aria-label="Link to section to learn about the board members" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-primary text-nowrap">
                                         <div className="flex justify-center items-center">
                                             Board Members <RxDoubleArrowDown />
                                         </div>
@@ -80,7 +80,7 @@ const About = () => {
                             <h1>Cornhole Tournament</h1>
                             <p className="text-pretty mb-2">
                                 This upcoming June will be the 5th year of us hosting a Cornhole Tournament, the first as the Scott Adams Sr. Memorial Fund. It is hosted at 
-                                <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-secondary"> <u>Ringer's Roost,</u> </a>
+                                <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-primary"> <u>Ringer's Roost,</u> </a>
                                 one of Scott's favorite places to go and socialize. We are very thankful for Ringer's allowing us to use their location for the tournament.</p>
                             <p className="text-pretty mb-2">
                                 In 2010, Scott and JoAnne started a bowling tournament as an extension of the Joe Muhl Memorial Foundation. They would run this tournament for 11 years at the St. Francis Society in Allentown as well, donating proceeds to
@@ -91,7 +91,7 @@ const About = () => {
                                 In addition to the tournament, there is also a Chinese Auction with over a hundred prizes!
                             </p>
                             <p>
-                                For more information about the tournament, upcoming events and registration, please go to the <a href="/upcoming" className="underline hover:text-secondary">Upcoming Events Page.</a>
+                                For more information about the tournament, upcoming events and registration, please go to the <a href="/upcoming" className="underline hover:text-primary">Upcoming Events Page.</a>
                             </p>
                         </div>
                     </div>

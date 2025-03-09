@@ -25,7 +25,7 @@ const Home = () => {
             <div className="text-center w-[75vw] mx-auto mb-4 align-bottom">
                 <h1>Help us honor Scott L. Adams Sr.</h1>
                 <p>
-                    100% of all donations go to <a href="https://www.stjude.org/" aria-label="Link to St. Jude's Website" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary text-[100%]">St Jude Children's Research Hospital.</a> For
+                    100% of all donations go to <a href="https://www.stjude.org/" aria-label="Link to St. Jude's Website" rel="external nofollow noopener" target="_blank" className="underline hover:text-primary text-[100%]">St Jude Children's Research Hospital.</a> For
                     more information, check out our About Us section or Contact Us!
                 </p>
                 <p>Federal Tax Identification Number (EIN): 99-3907270</p>

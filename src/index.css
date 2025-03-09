@@ -7,7 +7,7 @@
 }
 
 html{
-  @apply bg-gray-200 
+  @apply bg-fifth
 }
 h1 {
   @apply xs:text-[2.0em] lg:text-[3.0em] tracking-tight font-extrabold text-center text-black font-poppins
@@ -39,11 +39,11 @@ a, span, label, input, textarea, button, li, th, tr {
 
 @layer utilities {
   .navlink {
-    @apply hover:text-secondary cursor-pointer transition-all duration-300 relative mb-10
+    @apply hover:text-primary cursor-pointer transition-all duration-300 relative mb-10
   }
 
   .navlink::after {
-    @apply content-[''] bg-secondary h-[2px] w-[6%] absolute -left-0 top-6 duration-300 rounded-full
+    @apply content-[''] bg-primary h-[2px] w-[6%] absolute -left-0 top-6 duration-300 rounded-full
   }
 
   .navlink:hover::after {

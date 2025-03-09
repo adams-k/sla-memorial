@@ -11,10 +11,11 @@ export default {
         'poppins': ['Poppins', 'serif'],
       },
       colors: {
-        "primary": "#00AAD1",
+        "primary": "#0080A7",
         "secondary": "#fb8b00",
         "third": "#f9c73a",
-        "fourth": "#5b0000"
+        "fourth": "#5b0000",
+        "fifth": "#FDFEFF"
       }
     },
   },

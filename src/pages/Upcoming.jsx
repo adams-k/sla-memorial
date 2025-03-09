@@ -11,7 +11,7 @@ const Upcoming = () => {
                 </div>
             </div>
             <div className="flex py-8 lg:py-16 mx-auto w-[90vw] lg:w-[75vw] mb-32 lg:mb-5">
-                <div class="relative overflow-x-auto shadow-md rounded-lg bg-white">
+                <div class="relative overflow-x-auto mx-auto shadow-md rounded-lg bg-white">
                     <h2>Registration</h2>
                     <p className="text-center mx-auto w-[75%] mb-4">Registration is currently closed. Please check back later or signup for our newsletter to be notified when registration is open.</p>
                     <div>
