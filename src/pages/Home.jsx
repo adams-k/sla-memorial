@@ -25,16 +25,16 @@ const Home = () => {
             <div className="text-center w-[75vw] mx-auto mb-4 align-bottom">
                 <h1>Help us honor Scott L. Adams Sr.</h1>
                 <p>
-                    100% of all donations go to <a href="https://www.stjude.org/" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary text-[100%]">St Jude Children's Research Hospital.</a> For
+                    100% of all donations go to <a href="https://www.stjude.org/" aria-label="Link to St. Jude's Website" rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary text-[100%]">St Jude Children's Research Hospital.</a> For
                     more information, check out our About Us section or Contact Us!
                 </p>
                 <p>Federal Tax Identification Number (EIN): 99-3907270</p>
             </div>
             <div className="flex flex-row justify-between gap-10 w-[75vw] lg:w-[25%] mx-auto">
-                <a href="/about">
+                <a href="/about" aria-label="Link to About Page">
                     <button type="button" className="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">About Us</button>
                 </a>
-                <a href="/contact">
+                <a href="/contact" aria-label="Link to Contact Page">
                     <button type="button" className="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Contact Us</button>
                 </a>
             </div>

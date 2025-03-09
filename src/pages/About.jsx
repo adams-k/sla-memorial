@@ -26,21 +26,21 @@ const About = () => {
                             
                             <div className="lg:flex lg:flex-wrap items-center justify-between text-pretty about-links mt-4">
                                 <div className="flex justify-center items-center mb-2">
-                                    <Link to="tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                    <Link to="tournament" aria-label="Link to section to learn more about the tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about the Tournament <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center mb-2">
-                                    <Link to="scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                    <Link to="scott" aria-label="Link to section to learn more about Scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about Scott <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center mb-2">
-                                <Link to="board" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                <Link to="board" aria-label="Link to section to learn about the board members" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
                                         <div className="flex justify-center items-center">
                                             Board Members <RxDoubleArrowDown />
                                         </div>

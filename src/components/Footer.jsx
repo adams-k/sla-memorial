@@ -8,22 +8,23 @@ const Footer = () => {
             </span>
             <ul class="lg:flex lg:flex-wrap lg:mt-3 text-sm font-medium text-black mt-0 pb-3">
                 <li>
-                    <a href="https://www.facebook.com/groups/1250145466332451/" target="_blank" rel="noopener noreferrer" class="hover:underline me-4 md:me-6">Facebook</a>
+                    <a href="https://www.facebook.com/groups/1250145466332451/" target="_blank" aria-label="Link to Facebook"
+                    rel="noopener noreferrer" class="hover:underline me-4 md:me-6">Facebook</a>
                 </li>
                 <li>
-                    <a href="/about" class="hover:underline me-4 md:me-6">About</a>
+                    <a href="/about" class="hover:underline me-4 md:me-6" aria-label="Link to About Page">About</a>
                 </li>
                 <li>
-                    <a href="/contact" class="hover:underline me-4 md:me-6">Contact</a>
+                    <a href="/contact" class="hover:underline me-4 md:me-6" aria-label="Link to Contact Page">Contact</a>
                 </li>
                 <li>
                     <PopUp />
                 </li>
                 <li>
-                    <a href="/terms" class="hover:underline me-4 md:me-6">Terms & Conditions</a>
+                    <a href="/terms" class="hover:underline me-4 md:me-6" aria-label="Link to Terms and Conditions Page">Terms & Conditions</a>
                 </li>
                 <li>
-                    <a href="/privacy" class="hover:underline">Privacy Policy</a>
+                    <a href="/privacy" class="hover:underline" aria-label="Link to Privacy Policy Page">Privacy Policy</a>
                 </li>
             </ul>
         </footer>

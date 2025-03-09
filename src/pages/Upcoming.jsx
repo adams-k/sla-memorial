@@ -10,12 +10,11 @@ const Upcoming = () => {
                     </h4>
                 </div>
             </div>
-            <div className="flex py-8 lg:py-16 mx-auto w-[90vw] lg:w-[75vw] mb-3 lg:mb-5">
-                <div className="mx-auto">
+            <div className="flex py-8 lg:py-16 mx-auto w-[90vw] lg:w-[75vw] mb-32 lg:mb-5">
+                <div class="relative overflow-x-auto shadow-md rounded-lg bg-white">
                     <h2>Registration</h2>
                     <p className="text-center mx-auto w-[75%] mb-4">Registration is currently closed. Please check back later or signup for our newsletter to be notified when registration is open.</p>
-                
-                    <div class="relative overflow-x-auto shadow-md rounded-lg bg-white w-[95%] mx-auto mb-3 lg:mb-3">
+                    <div>
                         <table class="w-full text-sm text-left rtl:text-right bg-gray-300 text-gray-500 mx-auto rounded-lg">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                                 <tr>

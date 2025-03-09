@@ -3,8 +3,8 @@ import { navData } from "../assets/Data";
 
 const Header = () => {
     const [click, setClick] = useState(false)
-    const link = navData.map(([key, title, url]) => (
-        <li className="navlink" id={key}><a href={url}>{title}</a></li>
+    const link = navData.map(([key, title, url, label]) => (
+        <li className="navlink" id={key}><a href={url} aria-label={label}>{title}</a></li>
     ))
 
     return (
