@@ -8,8 +8,8 @@ const Footer = () => {
             </span>
             <ul class="lg:flex lg:flex-wrap lg:mt-3 text-sm font-medium text-black mt-0 pb-3">
                 <li>
-                    <a href="https://www.paypal.com/ncp/payment/BBKH6STRCT75Y" rel="external nofollow noopener" target="_blank" class="hover:underline me-4 md:me-6" 
-                    aria-label="Link to Donate Page">Donate</a>
+                    <a href="https://www.paypal.com/us/fundraiser/charity/5327057" rel="external nofollow noopener" target="_blank" class="hover:underline me-4 md:me-6" 
+                    aria-label="Link to Donate PayPal">Donate</a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/groups/1250145466332451/" target="_blank" rel="noopener noreferrer" class="hover:underline me-4 md:me-6"
