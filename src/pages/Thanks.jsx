@@ -6,7 +6,7 @@ const Thanks = () => {
             <p class="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">
                 Be on the lookout for an email from <u>scottadamssrmemorialfund@gmail.com</u>! We will get back to you within a few days.
             </p>
-            <a href="/">
+            <a href="/" aria-label="Link to Home Page">
                 <button type="button" className="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Back to Home</button>
             </a>
         </div>

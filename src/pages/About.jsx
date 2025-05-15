@@ -26,21 +26,21 @@ const About = () => {
                             
                             <div className="lg:flex lg:flex-wrap items-center justify-between text-pretty about-links mt-4">
                                 <div className="flex justify-center items-center mb-2">
-                                    <Link to="tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                    <Link to="tournament" aria-label="Link to section to learn more about the tournament" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-primary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about the Tournament <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center mb-2">
-                                    <Link to="scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                    <Link to="scott" aria-label="Link to section to learn more about Scott" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-primary text-nowrap">
                                         <div className="flex justify-center items-center">
                                         More about Scott <RxDoubleArrowDown />
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="flex justify-center items-center mb-2">
-                                <Link to="board" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-secondary text-nowrap">
+                                <Link to="board" aria-label="Link to section to learn about the board members" spy={true} smooth={true} offset={-150} duration={500} className="underline hover:cursor-pointer hover:text-primary text-nowrap">
                                         <div className="flex justify-center items-center">
                                             Board Members <RxDoubleArrowDown />
                                         </div>
@@ -49,7 +49,8 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/about.jpg" className="rounded-lg float-right xs:mb-24 lg:mb-0"></img>
+                            <img src="/about.jpg" alt="Scott giving a thumbs up while holding a miller lite" 
+                            className="rounded-lg float-right xs:mb-24 lg:mb-0"></img>
                         </div>
                     </div>
                 </div>
@@ -61,13 +62,16 @@ const About = () => {
                             <TECarousel ride="carousel">
                                 <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg xs:w-80 lg:w-96 h-auto -translate-x-[5%] mb-5">
                                     <TECarouselItem itemID={1} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
-                                        <img src="/image4.jpeg" className="block w-full" alt="..."/>
+                                        <img src="/image4.jpeg" className="block w-full" 
+                                        alt="View of the tournament setup, with crowd of people, cornhole boards, and the hot dog station."/>
                                     </TECarouselItem>
                                     <TECarouselItem itemID={2} className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
-                                        <img src="/image5.jpeg" className="block w-full" alt="..."/>
+                                        <img src="/image5.jpeg" className="block w-full" 
+                                        alt="A side view of the crowd at the tournament, along with the prizes table."/>
                                     </TECarouselItem>
                                     <TECarouselItem itemID={3} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
-                                        <img src="/image6.jpeg" className="block w-full" alt="..."/>
+                                        <img src="/image6.jpeg" className="block w-full" 
+                                        alt="A view of the players competing at cornhole."/>
                                     </TECarouselItem>
                                 </div>
                             </TECarousel>
@@ -76,7 +80,7 @@ const About = () => {
                             <h1>Cornhole Tournament</h1>
                             <p className="text-pretty mb-2">
                                 This upcoming June will be the 5th year of us hosting a Cornhole Tournament, the first as the Scott Adams Sr. Memorial Fund. It is hosted at 
-                                <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-secondary"> <u>Ringer's Roost,</u> </a>
+                                <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-primary"> <u>Ringer's Roost,</u> </a>
                                 one of Scott's favorite places to go and socialize. We are very thankful for Ringer's allowing us to use their location for the tournament.</p>
                             <p className="text-pretty mb-2">
                                 In 2010, Scott and JoAnne started a bowling tournament as an extension of the Joe Muhl Memorial Foundation. They would run this tournament for 11 years at the St. Francis Society in Allentown as well, donating proceeds to
@@ -87,7 +91,7 @@ const About = () => {
                                 In addition to the tournament, there is also a Chinese Auction with over a hundred prizes!
                             </p>
                             <p>
-                                For more information about the tournament, upcoming events and registration, please go to the <a href="/upcoming" className="underline hover:text-secondary">Upcoming Events Page.</a>
+                                For more information about the tournament, upcoming events and registration, please go to the <a href="/upcoming" className="underline hover:text-primary">Upcoming Events Page.</a>
                             </p>
                         </div>
                     </div>
@@ -115,13 +119,16 @@ const About = () => {
                         <TECarousel ride="carousel">
                             <div className="relative overflow-hidden after:clear-both after:block after:content-[''] rounded-lg shadow-lg xs:w-80 lg:w-96 xs:h-80 lg:h-96 -translate-x-[5%]">
                             <TECarouselItem itemID={1} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
-                                <img src="/poppop1.jpeg" className="block w-full" alt="..."/>
+                                <img src="/poppop1.jpeg" className="block w-full" 
+                                alt="A picture of Scott holding his hands up at the beach."/>
                             </TECarouselItem>
                             <TECarouselItem itemID={2} className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none object-center">
-                                <img src="/poppop2.jpeg" className="block w-full" alt="..."/>
+                                <img src="/poppop2.jpeg" className="block w-full" 
+                                alt="A picture of Scott, with his wife Joanne and 2 of his grandchildren at the beach."/>
                             </TECarouselItem>
                             <TECarouselItem itemID={3} className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
-                                <img src="/poppop3.jpeg" className="block w-full" alt="..."/>
+                                <img src="/poppop3.jpeg" className="block w-full" 
+                                alt="A picture of Scott and his wife Joanne leaning over the boardwalk railing at the beach."/>
                             </TECarouselItem>
                             </div>
                         </TECarousel>
@@ -133,7 +140,7 @@ const About = () => {
                     <h1 className="lg:mb-10">Board Members</h1>
                     <div className="lg:flex items-center justify-between gap-2 lg:gap-10 w-[90vw] mx-auto mb-10">
                         <div>
-                            <img src="/mommom.jpeg" className="rounded-full h-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/mommom.jpeg" className="rounded-full h-48 mb-3 lg:ml-[0%] xs:ml-[25%]" alt="A headshot of Joanne Adams"/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">JoAnne Adams</p>
                                 <p className="mb-0">Wife</p>
@@ -141,7 +148,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/dad.jpg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/dad.jpg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]" alt="A headshot of Scott Adams Jr."/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">Scott Adams Jr.</p>
                                 <p className="mb-0">Son</p>
@@ -149,7 +156,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/mikey.JPG" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/mikey.JPG" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]" alt="A headshot of Mike Adams"/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">Mike Adams</p>
                                 <p className="mb-0">Son</p>
@@ -157,7 +164,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/scotty.jpeg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/scotty.jpeg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]" alt="A headshot of Scott Adams III"/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">Scott Adams III</p>
                                 <p className="mb-0">Grandson</p>
@@ -165,7 +172,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="/kyle.jpeg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]"/>
+                            <img src="/kyle.jpeg" className="rounded-full h-48 w-48 mb-3 lg:ml-[0%] xs:ml-[25%]" alt="A headshot of Kyle Adams"/>
                             <div className="text-center mb-10">
                                 <p className="mb-0">Kyle Adams</p>
                                 <p className="mb-0">Grandson</p>

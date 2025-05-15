@@ -17,7 +17,8 @@ const PopUp = () => {
                 <button onClick={() => setOpen(!open)} type="button" className="absolute right-0 mr-2 mt-2 text-2xl z-50" data-toggle="modal" data-target="Newsletter">
                     <MdClose/>
                 </button>
-                <iframe src="https://embeds.beehiiv.com/09a7a14e-bfc2-4249-9288-2358856f8d26" className="h-full w-full rounded-lg"></iframe>
+                <iframe src="https://embeds.beehiiv.com/09a7a14e-bfc2-4249-9288-2358856f8d26" alt="Embed to sign up for newsletter. Takes input of email." 
+                    className="h-full w-full rounded-lg"></iframe>
             </div>
         </div>
       )}

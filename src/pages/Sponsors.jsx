@@ -1,15 +1,15 @@
 import { sponsorsMap } from "../assets/Data.jsx"
 
 const Sponsors = () => {
-    const link = sponsorsMap.map(([name, url]) => (
-        <a href={url} rel="external nofollow noopener" target="_blank" className="underline hover:text-secondary">{name}</a>
+    const link = sponsorsMap.map(([name, url, label]) => (
+        <a href={url} aria-label={label} rel="external nofollow noopener" target="_blank" className="underline hover:text-primary">{name}</a>
     ))
 
     return (
         <section className="lg:mb-0 xs:mb-32">
             <div className="flex">
                 <div>
-                    <img src="/image1.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw] mb-10"></img>
+                    <img src="/image1.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw] mb-10" alt="An image of Joanne Adams standing in front of a banner for the event."/>
                     <h1>Thank You to Our Sponsors!</h1>
                 </div>
             </div>
@@ -20,16 +20,16 @@ const Sponsors = () => {
             </div>
             <div className="xs:mb-5 lg:10">
                 <h2 className="mb-5">Top Sponsors</h2>
-                <div className="lg:flex lg:flex-row xs:grid xs:grid-cols-3 mx-auto justify-between lg:w-[75vw] xs:w-[90vw] xs:gap-5 lg:gap-0">
-                    <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50" data-tooltip-target="tooltip-top" data-tooltip-placement="top" ><img src="/ringers.png" className="w-32 h-32"/></a>
-                    <a href="https://www.facebook.com/heckenbergers/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/heckenbergers.jpg" className="w-32 h-32"/></a>
-                    <a href="https://www.facebook.com/adamssalads/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/adamssalads.jpg" className="w-32 h-32"/></a>
-                    <a href="https://bankobeverage.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/banko.png" className="w-32 h-32"/></a>
-                    <a href="https://www.facebook.com/p/Hogans-of-Allentown-PA-100063715533723/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/hogans.jpg" className="w-32 h-32"/></a>
-                    <a href="https://www.facebook.com/p/Cetronia-Fire-Company-Social-Club-100064243116123/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/centronia.jpg" className="w-32 h-32"/></a>
-                    <a href="https://www.facebook.com/p/Rosemont-Fire-Company-100063199991071/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/rosemont.jpg" className="w-32 h-32"/></a>
-                    <a href="https://www.llsgraphics.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/lls-graphics.png" className="w-32 h-32"/></a>
-                    <a href="https://www.renderimpact.com" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/render_impact.jpg" className="w-32 h-32"/></a>
+                <div className="lg:flex lg:flex-row xs:grid xs:grid-cols-3 mx-auto justify-between lg:w-[90vw] xs:w-[90vw] xs:gap-5 lg:gap-2">
+                    <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50" data-tooltip-target="tooltip-top" data-tooltip-placement="top" ><img src="/ringers.png" className="w-32 h-32" aria-label="Logo and link for Ringer's Roost"/></a>
+                    <a href="https://www.facebook.com/heckenbergers/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/heckenbergers.jpg" className="w-32 h-32" aria-label="Logo and link for Heckenberger's Seafood"/></a>
+                    <a href="https://www.facebook.com/adamssalads/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/adamssalads.jpg" className="w-32 h-32" aria-label="Logo and link for Adams' Salads"/></a>
+                    <a href="https://bankobeverage.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/banko.png" className="w-32 h-32" aria-label="Logo and link for Banko Beverage"/></a>
+                    <a href="https://www.facebook.com/p/Hogans-of-Allentown-PA-100063715533723/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/hogans.jpg" className="w-32 h-32" aria-label="Logo and link for Hogan's Social Club"/></a>
+                    <a href="https://www.facebook.com/p/Cetronia-Fire-Company-Social-Club-100064243116123/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/centronia.jpg" className="w-32 h-32" aria-label="Logo and link for Centronia Fire Company"/></a>
+                    <a href="https://www.facebook.com/p/Rosemont-Fire-Company-100063199991071/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/rosemont.jpg" className="w-32 h-32" aria-label="Link and logo for Rosemont Social Club"/></a>
+                    <a href="https://www.llsgraphics.com/" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/lls-graphics.png" className="w-32 h-32" aria-label="Logo and link for LLS Graphics"/></a>
+                    <a href="https://www.renderimpact.com" rel="external nofollow noopener" target="_blank" className="hover:brightness-50"><img src="/render_impact.jpg" className="w-32 h-32" aria-label="Logo and link for Render Impact by SPI"/></a>
                 </div>
             </div>
             <div className="mb-5">
