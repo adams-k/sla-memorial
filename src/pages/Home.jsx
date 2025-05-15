@@ -1,3 +1,5 @@
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+
 const Home = () => {
     return (
         <section className="lg:mb-0 xs:mb-32">
@@ -27,14 +29,18 @@ const Home = () => {
                 </p>
                 <p>Federal Tax Identification Number (EIN): 99-3907270</p>
             </div>
-            <div className="flex flex-row justify-between gap-10 w-[75vw] lg:w-[25%] mx-auto">
+            <div className="flex flex-row justify-between gap-10 w-[75vw] lg:w-[40%] mx-auto">
                 <a href="/about">
                     <button type="button" className="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">About Us</button>
+                </a>
+                <a href="https://www.paypal.com/ncp/payment/BBKH6STRCT75Y" rel="external nofollow noopener" target="_blank">
+                    <button type="button" className="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Donate on PayPal</button>
                 </a>
                 <a href="/contact">
                     <button type="button" className="py-3 px-5 text-sm font-bold text-center text-black rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-secondary hover:bg-primary focus:ring-primary-800">Contact Us</button>
                 </a>
             </div>
+            
         </section>
     )
 }

@@ -8,6 +8,9 @@ const Footer = () => {
             </span>
             <ul class="lg:flex lg:flex-wrap lg:mt-3 text-sm font-medium text-black mt-0 pb-3">
                 <li>
+                    <a href="https://www.paypal.com/ncp/payment/BBKH6STRCT75Y" rel="external nofollow noopener" target="_blank" class="hover:underline me-4 md:me-6">Donate</a>
+                </li>
+                <li>
                     <a href="https://www.facebook.com/groups/1250145466332451/" target="_blank" rel="noopener noreferrer" class="hover:underline me-4 md:me-6">Facebook</a>
                 </li>
                 <li>
