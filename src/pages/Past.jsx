@@ -35,8 +35,8 @@ const Past = () => {
                     alt="A picture of the prizes table, displaying multiple baskets."/>
                     <h1>Past Events</h1>
                     <p className="text-center mx-auto lg:w-[50%]">
-                        Since 2010, we have hosted 15 tournaments under the Joe Muhl Memorial Foundation. In those years, we have raised money from entry fees, 50/50 raffles, prize auctions, and gifts to the organization.
-                        100% of proceeds are donated directly to charity. The table below describes all $159,871 raised so far!
+                        Since 2010, we have hosted 16 tournaments under the Joe Muhl Memorial Foundation or Scott Adams Sr. Memorial Fund. In those years, we have raised money from entry fees, prize auctions, and gifts to the organization.
+                        100% of proceeds are donated directly to charity. The table below describes all $181,892 raised so far!
                     </p>
                 </div>
             </div>

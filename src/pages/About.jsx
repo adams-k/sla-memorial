@@ -15,8 +15,8 @@ const About = () => {
                                 Our commemorative cornhole tournament takes place every summer in the name of Scott Adams Sr. 
                                 Scott loved helping to host this tournament, and more importantly, he loved that all proceeds from the event are donated to his favorite charity, St. Jude Children's Research Hospital.</p>
                             <p className="text-pretty mb-2">
-                                For the last 15 years, Scott, his loving wife JoAnne, and their family have hosted a tournament as part of the Joe Muhl Memorial Foundation. Starting as a bowling tournament, the
-                                we have transitioned to a Cornhole Tournament starting in 2021, totaling $180,000 donated across the 16 years. In 2025, we hosted our first tournament as the Scott
+                                For 15 years, Scott, his loving wife JoAnne, and their family have hosted a tournament as part of the Joe Muhl Memorial Foundation. Starting as a bowling tournament, the
+                                we have transitioned to a cornhole starting in 2021, totaling $180,000 donated across the 16 years. In 2025, we hosted our first tournament as the Scott
                                 Adams Sr. Memorial Fund, raising $22,021, our highest total yet.
                             </p>
                             <p className="text-pretty mb-2">
@@ -79,7 +79,7 @@ const About = () => {
                         <div className="lg:float-left lg:p-10 p-0 w-[75vw] xs:text-center lg:text-left lg:w-full">
                             <h1>Cornhole Tournament</h1>
                             <p className="text-pretty mb-2">
-                                This upcoming June will be the 6th year of us hosting a Cornhole Tournament, the first as the Scott Adams Sr. Memorial Fund. It is hosted at 
+                                This upcoming June will be the 6th year of us hosting a Cornhole Tournament, the second as the Scott Adams Sr. Memorial Fund. It is hosted at 
                                 <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-primary"> <u>Ringer's Roost,</u> </a>
                                 one of Scott's favorite places to go and socialize. We are very thankful for Ringer's allowing us to use their location for the tournament.</p>
                             <p className="text-pretty mb-2">

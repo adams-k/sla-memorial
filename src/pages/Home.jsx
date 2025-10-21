@@ -14,11 +14,11 @@ const Home = () => {
                     <p>Participants every year</p>
                 </div>
                 <div>
-                    <h2>150+</h2>
+                    <h2>180+</h2>
                     <p>Thousand dollars donated towards cancer treatment and research</p>
                 </div>
                 <div>
-                    <h2>15+</h2>
+                    <h2>16+</h2>
                     <p>Years of Tournaments</p>
                 </div>
             </div>
