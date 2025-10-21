@@ -16,8 +16,8 @@ const About = () => {
                                 Scott loved helping to host this tournament, and more importantly, he loved that all proceeds from the event are donated to his favorite charity, St. Jude Children's Research Hospital.</p>
                             <p className="text-pretty mb-2">
                                 For the last 15 years, Scott, his loving wife JoAnne, and their family have hosted a tournament as part of the Joe Muhl Memorial Foundation. Starting as a bowling tournament, the
-                                last 4 years we have transitioned to a Cornhole Tournament, totaling $159,871 donated across the 15 years. After Scott's passing last summer, we hosted our last tournament as part of the
-                                Joe Muhl Memorial Foundation, raising $15,035, our highest total yet.
+                                we have transitioned to a Cornhole Tournament starting in 2021, totaling $180,000 donated across the 16 years. In 2025, we hosted our first tournament as the Scott
+                                Adams Sr. Memorial Fund, raising $22,021, our highest total yet.
                             </p>
                             <p className="text-pretty mb-2">
                                 The Scott Adams Sr. Memorial Fund is a Non-Profit that is 501-C-3 Certified. All donations are 100% tax deductible. <br></br>
@@ -79,16 +79,16 @@ const About = () => {
                         <div className="lg:float-left lg:p-10 p-0 w-[75vw] xs:text-center lg:text-left lg:w-full">
                             <h1>Cornhole Tournament</h1>
                             <p className="text-pretty mb-2">
-                                This upcoming June will be the 5th year of us hosting a Cornhole Tournament, the first as the Scott Adams Sr. Memorial Fund. It is hosted at 
+                                This upcoming June will be the 6th year of us hosting a Cornhole Tournament, the first as the Scott Adams Sr. Memorial Fund. It is hosted at 
                                 <a href="https://www.ringersroostpa.com/" rel="external nofollow noopener" target="_blank" className="hover:text-primary"> <u>Ringer's Roost,</u> </a>
                                 one of Scott's favorite places to go and socialize. We are very thankful for Ringer's allowing us to use their location for the tournament.</p>
                             <p className="text-pretty mb-2">
                                 In 2010, Scott and JoAnne started a bowling tournament as an extension of the Joe Muhl Memorial Foundation. They would run this tournament for 11 years at the St. Francis Society in Allentown as well, donating proceeds to
-                                the American Cancer Society for the first three years and then transitioning to St. Jude Children's Research Hospital. Due to COVID-19 restrictions, the decision was made to change from bowling to cornhole in 2021. In the 15 years combined, we have raised
-                                over $150,000 for cancer treatment and research.
+                                the American Cancer Society for the first three years and then transitioning to St. Jude Children's Research Hospital. Due to COVID-19 restrictions, the decision was made to change from bowling to cornhole in 2021. In the 16 years combined, we have raised
+                                over $180,000 for cancer treatment and research.
                             </p>
                             <p className="text-pretty mb-2">
-                                In addition to the tournament, there is also a Chinese Auction with over a hundred prizes!
+                                In addition to the tournament, there is also a Prize Auction with over a hundred prizes!
                             </p>
                             <p>
                                 For more information about the tournament, upcoming events and registration, please go to the <a href="/upcoming" className="underline hover:text-primary">Upcoming Events Page.</a>

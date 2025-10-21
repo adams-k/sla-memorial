@@ -35,7 +35,7 @@ const Past = () => {
                     alt="A picture of the prizes table, displaying multiple baskets."/>
                     <h1>Past Events</h1>
                     <p className="text-center mx-auto lg:w-[50%]">
-                        Since 2010, we have hosted 15 tournaments under the Joe Muhl Memorial Foundation. In those years, we have raised money from entry fees, 50/50 raffles, chinese auctions, and gifts to the organization.
+                        Since 2010, we have hosted 15 tournaments under the Joe Muhl Memorial Foundation. In those years, we have raised money from entry fees, 50/50 raffles, prize auctions, and gifts to the organization.
                         100% of proceeds are donated directly to charity. The table below describes all $159,871 raised so far!
                     </p>
                 </div>
@@ -62,7 +62,7 @@ const Past = () => {
                                 Entry Fees
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Chinese Auction
+                                Auction
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Donated
@@ -79,11 +79,11 @@ const Past = () => {
                         <tr class="font-semibold text-gray-900">
                             <th scope="row" class="px-6 py-3 text-base">Total</th>
                             <td class="px-6 py-3"></td>
-                            <td class="px-6 py-3">1,037</td>
-                            <td class="px-6 py-3">$20,420</td>
-                            <td class="px-6 py-3">$25,070</td>
-                            <td class="px-6 py-3">$56,319</td>
-                            <td class="px-6 py-3">$159,871</td>
+                            <td class="px-6 py-3">1,149</td>
+                            <td class="px-6 py-3">$22,660</td>
+                            <td class="px-6 py-3">$30,420</td>
+                            <td class="px-6 py-3">$70,750</td>
+                            <td class="px-6 py-3">$181,892</td>
                         </tr>
                     </tfoot>
                 </table>
