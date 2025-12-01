@@ -6,14 +6,14 @@ const Upcoming = () => {
                     <img src="/image7.jpeg" className="brightness-50 h-[25vh] lg:h-[25em] w-[100vw] mb-10" alt="A view of people playing cornhole."/>
                     <h1>Upcoming Events</h1>
                     <h4 className="text-center mx-auto w-[75%]">
-                        Our next event will be June, 2026 at Ringer's Roost in Allentown with the date to be determined.
+                        We will be hosting our first ever Basket Bingo Tournament! It will be held at East Allen Fire Co. on January 18th starting at 1pm!
                     </h4>
                 </div>
             </div>
             <div className="flex py-8 lg:py-16 mx-auto w-[90vw] lg:w-[75vw] mb-32 lg:mb-5">
                 <div class="relative overflow-x-auto mx-auto shadow-md rounded-lg bg-white">
                     <h2>Registration</h2>
-                    <p className="text-center mx-auto w-[75%] mb-4">Registration is currently closed! Please check back later for updates!</p>
+                    <p className="text-center mx-auto w-[75%] mb-4">Registration is currently open! Please contact us via email to signup!</p>
                     <div>
                         <table class="w-full text-sm text-left rtl:text-right bg-gray-300 text-gray-500 mx-auto rounded-lg">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-50">
@@ -28,36 +28,30 @@ const Upcoming = () => {
                                         Location
                                     </th>
                                     <th scope="col" class="px-6 py-3">
+                                        Rounds
+                                    </th>
+                                    <th scope="col" class="px-6 py-3">
                                         Entry Fee
-                                    </th>
-                                    <th scope="col" class="px-6 py-3">
-                                        Available Spots
-                                    </th>
-                                    <th scope="col" class="px-6 py-3">
-                                        Registrants
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="bg-white border-b hover:bg-gray-50">
                                     <td className="px-6 py-4">
-                                        TBD
+                                        January 18th
                                     </td>
                                     <td className="px-6 py-4">
-                                        9:30 AM
+                                        1:00 PM
                                     </td>
                                     <td className="px-6 py-4">
-                                        Ringer's Roost
+                                        East Allen Fire Co.
                                     </td>
                                     <td className="px-6 py-4">
-                                        <span>$20/person</span>
-                                        <p>$40/team</p>
+                                        20
                                     </td>
                                     <td className="px-6 py-4">
-                                        N/A
-                                    </td>
-                                    <td className="px-6 py-4">
-                                        N/A
+                                        <span>$20/person in advance</span>
+                                        <p>$25/person at the door</p>
                                     </td>
                                 </tr>
                             </tbody>
